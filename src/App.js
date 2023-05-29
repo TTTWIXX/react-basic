@@ -12,6 +12,7 @@ function App() {
     return helloList;
   };
   
+  
   return(
 
    // html이 아니다. 자동으로 react가 코드를 만들어 주는것이다.
