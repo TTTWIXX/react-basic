@@ -7,7 +7,15 @@ import SayHello from './SayHello';
 
 
 function App() {
-
+  const looping = () => {
+    const helloList = [];
+    for (let i = 0; i < 5; i++) {
+      helloList.push(<SayHello />);
+    }
+    return helloList;
+  };
+  
+  
   return(
 
    // html이 아니다. 자동으로 react가 코드를 만들어 주는것이다.
